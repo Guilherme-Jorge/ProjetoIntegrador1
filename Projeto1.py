@@ -2,13 +2,12 @@
 Projeto Integrador I => Sistema completo
 
 Coisas para fazer:
-- Arrumar input duplicado de peso
 - Codigo da ingestao de calorias (Fazer uma tabela de valores para os alimentos e somar para saber o valor total)
 '''
 
 from functions.peso import *
 from functions.imc import *
-from functions.gastoen import *
+from functions.gastobasal import *
 from functions.consumocal import *
 import os
 
