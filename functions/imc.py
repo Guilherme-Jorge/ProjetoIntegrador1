@@ -2,10 +2,7 @@
 Projeto Integrador I => Calculadora de IMC
 '''
 
-def valorIMC():
-    from functions.peso import pesoValor
-
-    peso = pesoValor()
+def valorIMC(p):
 
     alturaValida = False
     while not alturaValida:
@@ -21,6 +18,6 @@ def valorIMC():
         except ValueError:
             print('<<<ERRO: Valor inválido, use APENAS números>>>')
 
-    IMC = peso / ( altura ** 2 )
+    IMC = p / ( altura ** 2 )
 
     return IMC
