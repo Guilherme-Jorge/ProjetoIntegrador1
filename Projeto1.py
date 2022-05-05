@@ -30,8 +30,10 @@ input('Press Enter to start')
 
 os.system('cls')
 
+peso = pesoValor()
+
 '''Calculo do IMC'''
-IMC = valorIMC()
+IMC = valorIMC(peso)
 
 os.system('cls')
 
@@ -59,7 +61,7 @@ input('\nPress enter to continue')
 os.system('cls')
 
 '''Calculo do gasto energetico para saber ate quanto a pessoa pode ingerir no dia'''
-gasto = gastoEnergetico()
+gasto = gastoEnergetico(peso)
 
 os.system('cls')
 
