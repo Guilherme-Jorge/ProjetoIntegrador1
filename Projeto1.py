@@ -25,7 +25,7 @@ print('||         22004817 - Matheus Ribeiro Marafon              ||')
 print('||         22005575 - Raul Migliari                        ||')
 print('=' * 61)
 
-input('Press Enter to start')
+input('\nPress Enter to start')
 
 os.system('cls')
 
